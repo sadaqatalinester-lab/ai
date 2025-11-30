@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, ".", "");
   return {
     // --- ADDED THIS LINE FOR GITHUB PAGES ---
-    base: "/storyai/",
+    base: "/ai/",
     // ----------------------------------------
     server: {
       port: 3000,
